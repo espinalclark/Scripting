@@ -1,5 +1,10 @@
 #!/bin/bash
 # 👾 https://github.com/espinalclark 👾#
+
+# -------------------------------
+# 🔥 AUTORELOAD SQL FOR MARIADB 🔥
+# -------------------------------
+
 FILE="archivo.sql" # <-- archivo.sql
 DB="database"    #<-- name_dabatabse 
 
