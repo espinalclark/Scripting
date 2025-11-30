@@ -11,6 +11,7 @@ contenido:
 user=algo <-- usuario de tu db
 password=algo <-- password de tu db
 
+- edita autoreload.sh con tu credenciales
 - chmod +x autoreload.sh <-da permiso de ejecucion al script
 - ./autorelaod.sh <-ejecuta el script
 ```
