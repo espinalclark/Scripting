@@ -43,7 +43,7 @@ for port in $(seq $p_start $p_end); do
     echo -ne "Escaneando: $percent% \r"
 
 done
-
+echo "input"
 wait
 echo -e "\n\nEscaneo completado."
 echo "Resultados guardados en $outfile"
