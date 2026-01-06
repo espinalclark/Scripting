@@ -1,6 +1,5 @@
 #!/bin/bash
 # 👾 https://github.com/espinalclark 👾#
-
 # -------------------------------
 # 🔥 AUTORELOAD SQL FOR MARIADB 🔥
 # -------------------------------
