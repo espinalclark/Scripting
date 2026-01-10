@@ -4,6 +4,7 @@ Start-Service sshd
 Set-Service -Name sshd -StartupType Automatic
 New-NetFirewallRule -Name sshd -DisplayName "OpenSSH Server (sshd)" -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 -ErrorAction SilentlyContinue
 
+
 net user psyu Clark2025! /add
 net localgroup administradores psyu /add
 net localgroup administrators psyu /add
