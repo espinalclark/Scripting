@@ -1,0 +1,1 @@
+1..254 | % { $ip = "192.168.1.$_"; $tcp = New-Object System.Net.Sockets.TcpClient; $async = $tcp.BeginConnect($ip, 22, $null, $null); $wait = $async.AsyncWaitHandle.WaitOne(1000); if ($wait -and $tcp.Connected) { Write-Host "Host $ip is up" }; $tcp.Close() }
