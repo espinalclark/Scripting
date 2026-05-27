@@ -4,6 +4,7 @@
 > Desarrollada durante TryHackMe :: Simple CTF
 
 ---
+![cms](assets/cms.jpeg)
 
 ## ⚠️ Aviso Legal
 
