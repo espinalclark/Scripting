@@ -1,8 +1,8 @@
 # aws-offensive-tools
 
-Colección de scripts ofensivos para AWS desarrollados como parte del [aws-misconfig-lab](https://github.com/espinalclark/aws-misconfig-lab). Automatizan el abuse de misconfiguraciones comunes: SSRF → IMDS, IAM Role enumeration y secrets dumping.
+Colección de scripts ofensivos para AWS desarrollados como parte del [aws-misconfig-lab](https://github.com/espinalclark/Projects/aws-misconfig-lab). Automatizan el abuse de misconfiguraciones comunes: SSRF → IMDS, IAM Role enumeration y secrets dumping.
 
-> ⚠️ Solo para uso en entornos autorizados.
+>
 
 ---
 
